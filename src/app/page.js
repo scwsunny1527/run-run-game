@@ -187,7 +187,7 @@ export default function Home() {
       <canvas ref={canvasRef} style={{ position: 'fixed', top: 0, left: 0 }} />
       {gameState === 'title' && (
         <div style={overlayStyle}>
-          <h1 style={{ fontSize: '64px', margin: '0 0 20px' }}>指南路午間求生指南</h1>
+          <h1 style={{ fontSize: '64px', margin: '0 0 20px' }}>指南路午間求生</h1>
           <p style={{ whiteSpace: 'pre-wrap', fontSize: '20px', margin: '10px 0' }}>{`鐘聲響起，所有政大人準備出動…
 指南路陷入混戰，只為那一口熱騰騰的便當
 準備好了嗎？「按下任意鍵」開始生存模式！`}</p>
